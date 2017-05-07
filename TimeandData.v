@@ -51,7 +51,7 @@ always @(posedge clk_8192HZ) begin
 						if(Mon_Date == 4'd12) begin
 							Mon_Date = 4'd1;
 							Year_Date = Year_Date + 1'b1;
-							if(Year_Date == 7'd99) begin
+							if(Year_Date == 7'd100) begin
 								Year_Date = 7'd0;
 							end
 						end
@@ -62,7 +62,7 @@ always @(posedge clk_8192HZ) begin
 						if(Mon_Date == 4'd12) begin
 							Mon_Date = 4'd1;
 							Year_Date = Year_Date + 1'b1;
-							if(Year_Date == 7'd99) begin
+							if(Year_Date == 7'd100) begin
 								Year_Date = 7'd0;
 							end
 						end
@@ -75,7 +75,7 @@ always @(posedge clk_8192HZ) begin
 						if(Mon_Date == 4'd12) begin
 							Mon_Date = 4'd1;
 							Year_Date = Year_Date + 1'b1;
-							if(Year_Date == 7'd99) begin
+							if(Year_Date == 7'd100) begin
 								Year_Date = 7'd0;
 							end
 						end
